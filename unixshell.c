@@ -50,7 +50,7 @@ char** tokparse(char* input, char* cargs[]){
         }
         cargs[++num_args] = token;
     }
-    return REDIR; //back to first REDIR
+    return REDIR; 
 }
 
 int main(int argc, const char* argv[]){
